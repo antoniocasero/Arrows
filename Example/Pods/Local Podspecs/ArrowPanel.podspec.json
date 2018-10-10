@@ -1,0 +1,27 @@
+{
+  "name": "ArrowPanel",
+  "version": "1.0.0",
+  "summary": "Arrow animated",
+  "description": "Arrow animation to use in your sliding panels",
+  "homepage": "https://github.com/antoniocasero/ArrowPanel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Antonio Casero Palmero": "anto.casero@gmail.com"
+  },
+  "social_media_url": "",
+  "platforms": {
+    "ios": "8.0",
+    "osx": "10.9",
+    "watchos": "2.0",
+    "tvos": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/antoniocasero/ArrowPanel.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "Sources/**/*",
+  "frameworks": "Foundation"
+}

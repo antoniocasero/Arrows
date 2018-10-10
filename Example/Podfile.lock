@@ -1,0 +1,16 @@
+PODS:
+  - Arrows (1.0.0)
+
+DEPENDENCIES:
+  - Arrows (from `../`)
+
+EXTERNAL SOURCES:
+  Arrows:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Arrows: d53c4877c8b5783ec93c34fbaf6ab213acd8aeee
+
+PODFILE CHECKSUM: 9d976b80b2272f0b9fdc0086e70589e067eb98c8
+
+COCOAPODS: 1.5.3
