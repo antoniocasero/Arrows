@@ -53,6 +53,11 @@ open class ArrowPanel: UIView {
         update(to: arrowPosition, animated: false)
     }
 
+    open override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        commonInit()
+    }
+
     private func arrowPath(value: CGFloat) -> UIBezierPath {
         let bezierPath = UIBezierPath()
         bezierPath.move(to: CGPoint(x: arrowFrame.minX + 0.8330 * frame.width, y: arrowFrame.minY + 0.43631 * arrowFrame.height))

@@ -24,6 +24,5 @@ class ViewController: UIViewController {
         let next = ArrowPanel.Position.allCases[index]
         arrow.update(to: next, animated: true)
     }
-
 }
 
