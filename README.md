@@ -34,7 +34,7 @@ class YourViewController: UIViewController {
 }
 ```
 
-The perfect companion for `Arrows` is [Panels](), take a look!
+The perfect companion for `Arrows` is [Panels](https://github.com/antoniocasero/Panels), take a look!
 
 <p align="center">
     <img src="Resources/ArrowExample.gif" width="237" height="471" alt="Arrowa demo1">

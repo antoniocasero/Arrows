@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Antonio Casero Palmero" => "anto.casero@gmail.com" }
   s.social_media_url   = "@acaserop"
-  s.swift_version = 4.2
+  s.swift_version = "4.2"
   s.ios.deployment_target = "11.0"
   s.tvos.deployment_target = "11.0"
   s.source       = { :git => "https://github.com/antoniocasero/Arrows.git", :tag => s.version.to_s }
