@@ -1,8 +1,14 @@
 PODS:
   - Arrows (1.0.0)
+  - Panels (2.0.2)
 
 DEPENDENCIES:
   - Arrows (from `../`)
+  - Panels
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Panels
 
 EXTERNAL SOURCES:
   Arrows:
@@ -10,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Arrows: d53c4877c8b5783ec93c34fbaf6ab213acd8aeee
+  Panels: 4f52307f2fcaf3da0a9245a38c9089a953624fb3
 
-PODFILE CHECKSUM: 9d976b80b2272f0b9fdc0086e70589e067eb98c8
+PODFILE CHECKSUM: b447eae953c2238b6b671a1826c6bfe29b005e66
 
 COCOAPODS: 1.5.3

@@ -7,19 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FD6C6114F8E429B6FEC4C74872E4179 /* Pods-Arrow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B32454B49CF4B651DF6041C37BDD5 /* Pods-Arrow_Example-dummy.m */; };
-		4A2256F49E40EC8341A539F1626C59D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2A34D8480DD8DDD362063B387FCA19AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		60366B68916D71A63B34D75F605E975E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		62F333F5CAFB20E3E91F78517068AC3E /* Arrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D92F4C151F0C7C05E9568748A1CA /* Arrows.swift */; };
+		606541EC8C5478BD2F2DE44C87148239 /* Panelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70183F5C64EE05716447801B71D353BE /* Panelable.swift */; };
+		62F333F5CAFB20E3E91F78517068AC3E /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D92F4C151F0C7C05E9568748A1CA /* ArrowView.swift */; };
 		6A155DE8FE5E59C5F48D6DD3307F2C18 /* Arrows-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D398D028DDE81797F9E829ED90AB2 /* Arrows-dummy.m */; };
-		A1F86623EC8081B80CB05861661E8C98 /* ArrowPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AA3AC9F5ED21A8A69CE86AF3FED7B /* ArrowPanel.swift */; };
+		70282D37BBB4D0F4AF50B772035F931A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		8901F83461C170D32A0D4E9293CD899F /* UIStoryBoard+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCB6138AD08B6FB680349212E70156 /* UIStoryBoard+Utils.swift */; };
+		8F09624052DC90E541C399DCA83FFC51 /* Panels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B019F5E7F31FD025A644C0B253D65F4E /* Panels-dummy.m */; };
+		91424C617C12B2C0841D5F5DFBACFF44 /* Panels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B6FE0F8BC2183309BDC63FAE331F78 /* Panels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		972A1C66451FACC0743B03372E4309EB /* Pods-Arrow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C7E018A5CC2782E6A2C8EDA9358B02 /* Pods-Arrow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9BC83A378AB75A2062B6378559CC5FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		AF36BCF683FAE2872E2CD47565FF4EFB /* Arrows-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D98EACF4ACDF9F2A7D97932A8480286 /* Arrows-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B74CA2C0A509D17BCDBDC8DCFA8BC4C6 /* Pods-Arrow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C7E018A5CC2782E6A2C8EDA9358B02 /* Pods-Arrow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8EBE638EF7A49F519630F95654CBEA1 /* PanelDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91ADADE15A1B49F0F0A82402FD8D9A1 /* PanelDimensions.swift */; };
+		BFC392DBE8AD4D2F7C499688B065828F /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F82C4591CC947913E169BCA0032AC /* UIView+Utils.swift */; };
+		D6FDA206A5528AFA6DB555BE0D6EB129 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA024461DA5A670B278A2068596CFF /* UIViewController+Utils.swift */; };
+		E18E61B10EB036681337476E161A3E1B /* Panels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92E8F05DBC2D73CB3E78ACDA725E9CA /* Panels.swift */; };
+		E21074AE478B6A47AC32CCFEA7471763 /* PanelConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863FE59BC2E005FE3C3122985DAC7226 /* PanelConfiguration.swift */; };
+		EB876C0ABAD681752DF867E4A4F18998 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		ED0CA46F02AE102C2588F2E029AFCB50 /* Pods-Arrow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B32454B49CF4B651DF6041C37BDD5 /* Pods-Arrow_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		96CA76274F5AC9396489A5BD83E2B8F2 /* PBXContainerItemProxy */ = {
+		C5AEB5CF684E97B860A64A01882AA3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6558210F747B4116F3A89AF4FF4B742;
+			remoteInfo = Panels;
+		};
+		C786F76EEF542B13A7C4AB29BAD06E88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -30,39 +47,61 @@
 
 /* Begin PBXFileReference section */
 		005F90E5953A92062EBFA382F279EE2E /* Arrows-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arrows-prefix.pch"; sourceTree = "<group>"; };
-		0614FD3E601181A7D79EA77109A7B318 /* Arrows.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arrows.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F07FA61D5F4CABDB13BB32812197276 /* Pods-Arrow_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arrow_Example-resources.sh"; sourceTree = "<group>"; };
 		14B023749A9653688D3CC3FA8F245E24 /* Arrows.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arrows.xcconfig; sourceTree = "<group>"; };
-		30D6D92F4C151F0C7C05E9568748A1CA /* Arrows.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arrows.swift; path = Sources/Arrows.swift; sourceTree = "<group>"; };
+		26B6FE0F8BC2183309BDC63FAE331F78 /* Panels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Panels-umbrella.h"; sourceTree = "<group>"; };
+		30D6D92F4C151F0C7C05E9568748A1CA /* ArrowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrowView.swift; path = Sources/ArrowView.swift; sourceTree = "<group>"; };
 		36B56AAE148005870ABC747CEF5F8EB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		40C98EFC2E73BDBB26D4080960005C70 /* Pods-Arrow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arrow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		505B32454B49CF4B651DF6041C37BDD5 /* Pods-Arrow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arrow_Example-dummy.m"; sourceTree = "<group>"; };
+		54374E76CE160289D1125EE65C790295 /* Panels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Panels.modulemap; sourceTree = "<group>"; };
 		62B939D1AD5EDA4E172129FF9E35B557 /* Pods-Arrow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arrow_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6D6D398D028DDE81797F9E829ED90AB2 /* Arrows-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Arrows-dummy.m"; sourceTree = "<group>"; };
 		6D98EACF4ACDF9F2A7D97932A8480286 /* Arrows-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arrows-umbrella.h"; sourceTree = "<group>"; };
+		6D9F82C4591CC947913E169BCA0032AC /* UIView+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Utils.swift"; path = "Sources/Utils/UIView+Utils.swift"; sourceTree = "<group>"; };
+		6F07B97371C6E7600CE6CFD95F4265D3 /* Panels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Panels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70183F5C64EE05716447801B71D353BE /* Panelable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Panelable.swift; path = Sources/Panelable.swift; sourceTree = "<group>"; };
 		76145A7E64FAD2559016FEEF66BEF6C3 /* Pods-Arrow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arrow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7EC81B1F079926F0050CDE85B56C9317 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7F158989C9477AC092FF9F0B59AC25C6 /* Arrows.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Arrows.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		83A30E6650299227F7DD987AA915782E /* Pods-Arrow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Arrow_Example.modulemap"; sourceTree = "<group>"; };
-		935AA3AC9F5ED21A8A69CE86AF3FED7B /* ArrowPanel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrowPanel.swift; path = Sources/ArrowPanel.swift; sourceTree = "<group>"; };
+		863FE59BC2E005FE3C3122985DAC7226 /* PanelConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanelConfiguration.swift; path = Sources/PanelConfiguration.swift; sourceTree = "<group>"; };
+		872A5BD8CFE2841906B1543CF00A2BE5 /* Panels-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Panels-prefix.pch"; sourceTree = "<group>"; };
+		879C5E21415785165E1F27E96CBB0B51 /* Pods_Arrow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arrow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACCB6138AD08B6FB680349212E70156 /* UIStoryBoard+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryBoard+Utils.swift"; path = "Sources/Utils/UIStoryBoard+Utils.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A944F187ACBDA6964E1D45D044A60BC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B019F5E7F31FD025A644C0B253D65F4E /* Panels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Panels-dummy.m"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BF5AA3A42D65B9C809B53763567FBD83 /* Pods-Arrow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arrow_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C7793EA033889CFB1B5241127566CDFC /* Arrows.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arrows.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DF76C422DB7FF84DBE722EE10656B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D41A92E7856197CED3A9CA5B223C89A4 /* Pods_Arrow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arrow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D91ADADE15A1B49F0F0A82402FD8D9A1 /* PanelDimensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanelDimensions.swift; path = Sources/PanelDimensions.swift; sourceTree = "<group>"; };
+		D92E8F05DBC2D73CB3E78ACDA725E9CA /* Panels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Panels.swift; path = Sources/Panels.swift; sourceTree = "<group>"; };
 		D9C7E018A5CC2782E6A2C8EDA9358B02 /* Pods-Arrow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arrow_Example-umbrella.h"; sourceTree = "<group>"; };
 		E70879AAB1C861F044F21449A581D401 /* Pods-Arrow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Arrow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA5AB6C59748D940C318E271371F5E3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5784C8E5EAB3CA2BE300B99368F749 /* Panels.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Panels.xcconfig; sourceTree = "<group>"; };
 		EEFDD6ACC49CC57A6E146F787707C97E /* Arrows.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Arrows.modulemap; sourceTree = "<group>"; };
+		FEAA024461DA5A670B278A2068596CFF /* UIViewController+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Utils.swift"; path = "Sources/Utils/UIViewController+Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3645881F5A5184EDE4E4AF8CF08C5579 /* Frameworks */ = {
+		858F908AE986945E4A372D7338367319 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A2256F49E40EC8341A539F1626C59D6 /* Foundation.framework in Frameworks */,
+				2A34D8480DD8DDD362063B387FCA19AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07724A1E116D8BCC793FCFDD774D608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB876C0ABAD681752DF867E4A4F18998 /* Foundation.framework in Frameworks */,
+				70282D37BBB4D0F4AF50B772035F931A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,11 +127,12 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		299FD5CC55E8BA32768E575705C359BD /* Products */ = {
+		28D85CF032258BCFAFD77631A2133633 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0614FD3E601181A7D79EA77109A7B318 /* Arrows.framework */,
-				D41A92E7856197CED3A9CA5B223C89A4 /* Pods_Arrow_Example.framework */,
+				C7793EA033889CFB1B5241127566CDFC /* Arrows.framework */,
+				6F07B97371C6E7600CE6CFD95F4265D3 /* Panels.framework */,
+				879C5E21415785165E1F27E96CBB0B51 /* Pods_Arrow_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +143,20 @@
 				EC443B6044013C8DFA6FAE0B5AFC7E99 /* Arrows */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3C59CA4DDFC4135036D0035FA5805C23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5AB6C59748D940C318E271371F5E3C /* Info.plist */,
+				54374E76CE160289D1125EE65C790295 /* Panels.modulemap */,
+				ED5784C8E5EAB3CA2BE300B99368F749 /* Panels.xcconfig */,
+				B019F5E7F31FD025A644C0B253D65F4E /* Panels-dummy.m */,
+				872A5BD8CFE2841906B1543CF00A2BE5 /* Panels-prefix.pch */,
+				26B6FE0F8BC2183309BDC63FAE331F78 /* Panels-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Panels";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -130,6 +184,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		55CC1B8D052B6D156063104D09917386 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE72D7DABE99C3E764CF4A4B422593B7 /* Panels */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5E556CB807EE36BC9A14A15420515B3D /* Pods-Arrow_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,9 +216,25 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				396CEDE0BFC828FE062996A9F69A0A15 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				299FD5CC55E8BA32768E575705C359BD /* Products */,
+				55CC1B8D052B6D156063104D09917386 /* Pods */,
+				28D85CF032258BCFAFD77631A2133633 /* Products */,
 				45BF926DAA0B62B439460F362EEE977B /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CE72D7DABE99C3E764CF4A4B422593B7 /* Panels */ = {
+			isa = PBXGroup;
+			children = (
+				70183F5C64EE05716447801B71D353BE /* Panelable.swift */,
+				863FE59BC2E005FE3C3122985DAC7226 /* PanelConfiguration.swift */,
+				D91ADADE15A1B49F0F0A82402FD8D9A1 /* PanelDimensions.swift */,
+				D92E8F05DBC2D73CB3E78ACDA725E9CA /* Panels.swift */,
+				8ACCB6138AD08B6FB680349212E70156 /* UIStoryBoard+Utils.swift */,
+				6D9F82C4591CC947913E169BCA0032AC /* UIView+Utils.swift */,
+				FEAA024461DA5A670B278A2068596CFF /* UIViewController+Utils.swift */,
+				3C59CA4DDFC4135036D0035FA5805C23 /* Support Files */,
+			);
+			path = Panels;
 			sourceTree = "<group>";
 		};
 		D445E5F2055D62445A83973075BC95FB /* Support Files */ = {
@@ -176,8 +254,7 @@
 		EC443B6044013C8DFA6FAE0B5AFC7E99 /* Arrows */ = {
 			isa = PBXGroup;
 			children = (
-				935AA3AC9F5ED21A8A69CE86AF3FED7B /* ArrowPanel.swift */,
-				30D6D92F4C151F0C7C05E9568748A1CA /* Arrows.swift */,
+				30D6D92F4C151F0C7C05E9568748A1CA /* ArrowView.swift */,
 				13276B26620E0CDF4B63F4646D52845E /* Pod */,
 				D445E5F2055D62445A83973075BC95FB /* Support Files */,
 			);
@@ -188,6 +265,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		5ABBB5F32DF7987F2A3421F94F804A88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91424C617C12B2C0841D5F5DFBACFF44 /* Panels-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7685CB121442E6A55F790AC1A4E7D69C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -196,17 +281,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89A45C2DC3DCFBA500BC2E81171DEDA1 /* Headers */ = {
+		DA0A4208805A4594595472EC1EA5E19C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B74CA2C0A509D17BCDBDC8DCFA8BC4C6 /* Pods-Arrow_Example-umbrella.h in Headers */,
+				972A1C66451FACC0743B03372E4309EB /* Pods-Arrow_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B0F9F6A067ADEB6DEBCB04836F1F4272 /* Pods-Arrow_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E6DAC576BB0A3533BC68AADABAD34E /* Build configuration list for PBXNativeTarget "Pods-Arrow_Example" */;
+			buildPhases = (
+				2D5DF36D1D5C3C1439191D88E5F14200 /* Sources */,
+				858F908AE986945E4A372D7338367319 /* Frameworks */,
+				DA0A4208805A4594595472EC1EA5E19C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5B38D5041C2C55C9D200ECB769E94FE /* PBXTargetDependency */,
+				E05F81677BCD6081DB01DECAB8FCB89C /* PBXTargetDependency */,
+			);
+			name = "Pods-Arrow_Example";
+			productName = "Pods-Arrow_Example";
+			productReference = 879C5E21415785165E1F27E96CBB0B51 /* Pods_Arrow_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B60A049E07DEDE5A6A10771D96A77BB1 /* Arrows */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEA268B24487B3D741BBA388460BC0F3 /* Build configuration list for PBXNativeTarget "Arrows" */;
@@ -221,25 +325,24 @@
 			);
 			name = Arrows;
 			productName = Arrows;
-			productReference = 0614FD3E601181A7D79EA77109A7B318 /* Arrows.framework */;
+			productReference = C7793EA033889CFB1B5241127566CDFC /* Arrows.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EEE79EE99A247F45B69A2CEFA31BF013 /* Pods-Arrow_Example */ = {
+		F6558210F747B4116F3A89AF4FF4B742 /* Panels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCDC2E7CEE42F85BD85D12EDC3C5F1FF /* Build configuration list for PBXNativeTarget "Pods-Arrow_Example" */;
+			buildConfigurationList = 7A91D76058DE44DD12B96402A2D9E99C /* Build configuration list for PBXNativeTarget "Panels" */;
 			buildPhases = (
-				4AEBA5C2E2962BD660EEBFA313841231 /* Sources */,
-				3645881F5A5184EDE4E4AF8CF08C5579 /* Frameworks */,
-				89A45C2DC3DCFBA500BC2E81171DEDA1 /* Headers */,
+				D1C822AA7FAF2AB620D0515B947AA78A /* Sources */,
+				A07724A1E116D8BCC793FCFDD774D608 /* Frameworks */,
+				5ABBB5F32DF7987F2A3421F94F804A88 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04DD88C4FEC4E2DA57071281E7496F00 /* PBXTargetDependency */,
 			);
-			name = "Pods-Arrow_Example";
-			productName = "Pods-Arrow_Example";
-			productReference = D41A92E7856197CED3A9CA5B223C89A4 /* Pods_Arrow_Example.framework */;
+			name = Panels;
+			productName = Panels;
+			productReference = 6F07B97371C6E7600CE6CFD95F4265D3 /* Panels.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -249,7 +352,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -259,22 +362,23 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 299FD5CC55E8BA32768E575705C359BD /* Products */;
+			productRefGroup = 28D85CF032258BCFAFD77631A2133633 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B60A049E07DEDE5A6A10771D96A77BB1 /* Arrows */,
-				EEE79EE99A247F45B69A2CEFA31BF013 /* Pods-Arrow_Example */,
+				F6558210F747B4116F3A89AF4FF4B742 /* Panels */,
+				B0F9F6A067ADEB6DEBCB04836F1F4272 /* Pods-Arrow_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4AEBA5C2E2962BD660EEBFA313841231 /* Sources */ = {
+		2D5DF36D1D5C3C1439191D88E5F14200 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FD6C6114F8E429B6FEC4C74872E4179 /* Pods-Arrow_Example-dummy.m in Sources */,
+				ED0CA46F02AE102C2588F2E029AFCB50 /* Pods-Arrow_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,24 +386,80 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F86623EC8081B80CB05861661E8C98 /* ArrowPanel.swift in Sources */,
 				6A155DE8FE5E59C5F48D6DD3307F2C18 /* Arrows-dummy.m in Sources */,
-				62F333F5CAFB20E3E91F78517068AC3E /* Arrows.swift in Sources */,
+				62F333F5CAFB20E3E91F78517068AC3E /* ArrowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C822AA7FAF2AB620D0515B947AA78A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606541EC8C5478BD2F2DE44C87148239 /* Panelable.swift in Sources */,
+				E21074AE478B6A47AC32CCFEA7471763 /* PanelConfiguration.swift in Sources */,
+				B8EBE638EF7A49F519630F95654CBEA1 /* PanelDimensions.swift in Sources */,
+				8F09624052DC90E541C399DCA83FFC51 /* Panels-dummy.m in Sources */,
+				E18E61B10EB036681337476E161A3E1B /* Panels.swift in Sources */,
+				8901F83461C170D32A0D4E9293CD899F /* UIStoryBoard+Utils.swift in Sources */,
+				BFC392DBE8AD4D2F7C499688B065828F /* UIView+Utils.swift in Sources */,
+				D6FDA206A5528AFA6DB555BE0D6EB129 /* UIViewController+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		04DD88C4FEC4E2DA57071281E7496F00 /* PBXTargetDependency */ = {
+		C5B38D5041C2C55C9D200ECB769E94FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Arrows;
 			target = B60A049E07DEDE5A6A10771D96A77BB1 /* Arrows */;
-			targetProxy = 96CA76274F5AC9396489A5BD83E2B8F2 /* PBXContainerItemProxy */;
+			targetProxy = C786F76EEF542B13A7C4AB29BAD06E88 /* PBXContainerItemProxy */;
+		};
+		E05F81677BCD6081DB01DECAB8FCB89C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Panels;
+			target = F6558210F747B4116F3A89AF4FF4B742 /* Panels */;
+			targetProxy = C5AEB5CF684E97B860A64A01882AA3DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02C26D103E3BA3EDB1B8C715FB744FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76145A7E64FAD2559016FEEF66BEF6C3 /* Pods-Arrow_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Arrow_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arrow_Example/Pods-Arrow_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -397,40 +557,7 @@
 			};
 			name = Release;
 		};
-		8D230D311A655218ABBEF9435E7283E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14B023749A9653688D3CC3FA8F245E24 /* Arrows.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Arrows/Arrows-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Arrows/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Arrows/Arrows.modulemap";
-				PRODUCT_MODULE_NAME = Arrows;
-				PRODUCT_NAME = Arrows;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B99E37BDCD209C507F6FD7B5091282AA /* Debug */ = {
+		4E0F9775A0B46A9EE4CE2553C65BDCF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62B939D1AD5EDA4E172129FF9E35B557 /* Pods-Arrow_Example.debug.xcconfig */;
 			buildSettings = {
@@ -465,6 +592,106 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		8D230D311A655218ABBEF9435E7283E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B023749A9653688D3CC3FA8F245E24 /* Arrows.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Arrows/Arrows-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Arrows/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Arrows/Arrows.modulemap";
+				PRODUCT_MODULE_NAME = Arrows;
+				PRODUCT_NAME = Arrows;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A977657BA9D2E957CC2800DA963D917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5784C8E5EAB3CA2BE300B99368F749 /* Panels.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Panels/Panels-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Panels/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Panels/Panels.modulemap";
+				PRODUCT_MODULE_NAME = Panels;
+				PRODUCT_NAME = Panels;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA0DD3F348FFC7C6FA9D3167712EC123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5784C8E5EAB3CA2BE300B99368F749 /* Panels.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Panels/Panels-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Panels/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Panels/Panels.modulemap";
+				PRODUCT_MODULE_NAME = Panels;
+				PRODUCT_NAME = Panels;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -520,44 +747,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		CE1914924AD5388366BA2823F30147D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76145A7E64FAD2559016FEEF66BEF6C3 /* Pods-Arrow_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Arrow_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Arrow_Example/Pods-Arrow_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -573,11 +763,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCDC2E7CEE42F85BD85D12EDC3C5F1FF /* Build configuration list for PBXNativeTarget "Pods-Arrow_Example" */ = {
+		57E6DAC576BB0A3533BC68AADABAD34E /* Build configuration list for PBXNativeTarget "Pods-Arrow_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B99E37BDCD209C507F6FD7B5091282AA /* Debug */,
-				CE1914924AD5388366BA2823F30147D1 /* Release */,
+				4E0F9775A0B46A9EE4CE2553C65BDCF6 /* Debug */,
+				02C26D103E3BA3EDB1B8C715FB744FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A91D76058DE44DD12B96402A2D9E99C /* Build configuration list for PBXNativeTarget "Panels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A977657BA9D2E957CC2800DA963D917 /* Debug */,
+				AA0DD3F348FFC7C6FA9D3167712EC123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

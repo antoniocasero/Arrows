@@ -12,9 +12,7 @@ import Arrows
 
 class ArrowsTests: XCTestCase {
     func testExample() {
- 
     }
-    
     static var allTests = [
         ("testExample", testExample),
     ]

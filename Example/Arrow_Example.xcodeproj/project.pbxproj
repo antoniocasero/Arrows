@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		77A57CD469D2FBFBC09AF6A0 /* Pods_Arrow_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4B316A7616C5A0D1FF3F23 /* Pods_Arrow_Example.framework */; };
 		C469575E21669F6400F40A2F /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469575D21669F6400F40A2F /* UIView+Utils.swift */; };
+		C48D94ED2172129E008A498D /* ExamplePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D94EB2172129E008A498D /* ExamplePanel.swift */; };
+		C48D94EE2172129E008A498D /* ExamplePanel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48D94EC2172129E008A498D /* ExamplePanel.storyboard */; };
 		C4CAF6E1215EAF2500B71FA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CAF6E0215EAF2500B71FA0 /* AppDelegate.swift */; };
-		C4CAF6E3215EAF2500B71FA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CAF6E2215EAF2500B71FA0 /* ViewController.swift */; };
+		C4CAF6E3215EAF2500B71FA0 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CAF6E2215EAF2500B71FA0 /* ExampleViewController.swift */; };
 		C4CAF6E6215EAF2500B71FA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CAF6E4215EAF2500B71FA0 /* Main.storyboard */; };
 		C4CAF6E8215EAF2800B71FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CAF6E7215EAF2800B71FA0 /* Assets.xcassets */; };
 		C4CAF6EB215EAF2800B71FA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CAF6E9215EAF2800B71FA0 /* LaunchScreen.storyboard */; };
@@ -21,9 +23,11 @@
 		6DC5F1971A45A5AA4BF29822 /* Pods-Arrow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arrow_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arrow_Example/Pods-Arrow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8DE5D5393F43F0D931F0416D /* Pods-Arrow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arrow_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arrow_Example/Pods-Arrow_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C469575D21669F6400F40A2F /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		C48D94EB2172129E008A498D /* ExamplePanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplePanel.swift; sourceTree = "<group>"; };
+		C48D94EC2172129E008A498D /* ExamplePanel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExamplePanel.storyboard; sourceTree = "<group>"; };
 		C4CAF6DD215EAF2500B71FA0 /* Arrow_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arrow_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CAF6E0215EAF2500B71FA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4CAF6E2215EAF2500B71FA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4CAF6E2215EAF2500B71FA0 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		C4CAF6E5215EAF2500B71FA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4CAF6E7215EAF2800B71FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4CAF6EA215EAF2800B71FA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +62,15 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		C48D94EA2172129E008A498D /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				C48D94EB2172129E008A498D /* ExamplePanel.swift */,
+				C48D94EC2172129E008A498D /* ExamplePanel.storyboard */,
+			);
+			path = Panel;
+			sourceTree = "<group>";
+		};
 		C4CAF6D4215EAF2500B71FA0 = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +92,10 @@
 		C4CAF6DF215EAF2500B71FA0 /* Arrow_Example */ = {
 			isa = PBXGroup;
 			children = (
+				C48D94EA2172129E008A498D /* Panel */,
 				C469575C21669F5300F40A2F /* Extension */,
 				C4CAF6E0215EAF2500B71FA0 /* AppDelegate.swift */,
-				C4CAF6E2215EAF2500B71FA0 /* ViewController.swift */,
+				C4CAF6E2215EAF2500B71FA0 /* ExampleViewController.swift */,
 				C4CAF6E4215EAF2500B71FA0 /* Main.storyboard */,
 				C4CAF6E7215EAF2800B71FA0 /* Assets.xcassets */,
 				C4CAF6E9215EAF2800B71FA0 /* LaunchScreen.storyboard */,
@@ -161,6 +175,7 @@
 			files = (
 				C4CAF6EB215EAF2800B71FA0 /* LaunchScreen.storyboard in Resources */,
 				C4CAF6E8215EAF2800B71FA0 /* Assets.xcassets in Resources */,
+				C48D94EE2172129E008A498D /* ExamplePanel.storyboard in Resources */,
 				C4CAF6E6215EAF2500B71FA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,10 +191,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Arrow_Example/Pods-Arrow_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Arrows/Arrows.framework",
+				"${BUILT_PRODUCTS_DIR}/Panels/Panels.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Arrows.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Panels.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -211,7 +228,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CAF6E3215EAF2500B71FA0 /* ViewController.swift in Sources */,
+				C4CAF6E3215EAF2500B71FA0 /* ExampleViewController.swift in Sources */,
+				C48D94ED2172129E008A498D /* ExamplePanel.swift in Sources */,
 				C469575E21669F6400F40A2F /* UIView+Utils.swift in Sources */,
 				C4CAF6E1215EAF2500B71FA0 /* AppDelegate.swift in Sources */,
 			);
@@ -362,7 +380,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Arrow_Example/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Arrow-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -377,7 +398,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Arrow_Example/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Arrow-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

@@ -1,33 +1,38 @@
 //
-//  ArrowPanel.swift
-//  Uttopia
+//  Arrows.swift
+//  Arrows
 //
-//  Created by Antonio Casero Palmero on 27.09.18.
-//  Copyright © 2018 Uttopia. All rights reserved.
+//  Created by Antonio Casero Palmero on 10.10.18.
+//  Copyright © 2018 Arrows. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-@IBDesignable
-open class ArrowPanel: UIView {
-    
-    open var arrowPosition: Position = .middle
-    open var arrowColor: UIColor = .black {
+open class ArrowView: UIView {
+
+    ///  Get the current position, if you want to change
+    ///  position use `update` function
+    fileprivate(set) var arrowPosition: Position = .middle
+    @IBInspectable var arrowColor: UIColor = .black {
         didSet {
             arrowLayer.fillColor = arrowColor.cgColor
         }
     }
-    open var arrowAnimationDuration: Double = 0.15
 
+    /// Animation duration between arrow states
+    open var arrowAnimationDuration: Double = 0.30
+
+    /// Arrow positions
+    ///
+    /// - down: Pointing down
+    /// - middle: Flat line
+    /// - up: Pointing up
     public enum Position: CGFloat, CaseIterable {
-        case down = -0.15625
-        case middle = 0.15625
-        case up = 0.0
+        case up = -0.15625
+        case down = 0.15625
+        case middle = 0.0
     }
-
-    fileprivate lazy var arrowFrame: CGRect = {
-        return self.bounds
-    }()
 
     fileprivate lazy var arrowLayer: CAShapeLayer = {
         let _arrowlayer = CAShapeLayer()
@@ -35,6 +40,10 @@ open class ArrowPanel: UIView {
         _arrowlayer.frame = self.bounds
         self.layer.addSublayer(_arrowlayer)
         return _arrowlayer
+    }()
+
+    fileprivate lazy var arrowFrame: CGRect = {
+        return self.bounds
     }()
 
     override public init(frame: CGRect) {
@@ -47,15 +56,35 @@ open class ArrowPanel: UIView {
         commonInit()
     }
 
+    /// Function to update the arrow state
+    ///
+    /// - Parameters:
+    ///   - position: Position to update
+    ///   - animated: Flag to animate the change of state
+    open func update(to position: Position, animated: Bool) {
+        let oldPath = arrowLayer.path
+        let newPath = arrowPath(value: position.rawValue).cgPath
+
+        if (animated) {
+            let animation = CABasicAnimation(keyPath: #keyPath(CAShapeLayer.path))
+            animation.fromValue = oldPath
+            animation.toValue = newPath
+            animation.duration = arrowAnimationDuration
+            animation.beginTime = CACurrentMediaTime()
+            animation.fillMode = .backwards
+            animation.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
+            arrowLayer.add(animation, forKey: animation.keyPath)
+        }
+        arrowLayer.path = newPath
+        arrowPosition = position
+    }
+}
+
+extension ArrowView {
     private func commonInit(){
         layer.frame = self.bounds
         backgroundColor = .clear
         update(to: arrowPosition, animated: false)
-    }
-
-    open override func prepareForInterfaceBuilder() {
-        super.prepareForInterfaceBuilder()
-        commonInit()
     }
 
     private func arrowPath(value: CGFloat) -> UIBezierPath {
@@ -88,21 +117,4 @@ open class ArrowPanel: UIView {
         return bezierPath
     }
 
-    open func update(to position: Position, animated: Bool) {
-        let oldPath = arrowLayer.path
-        let newPath = arrowPath(value: position.rawValue).cgPath
-
-        if (animated) {
-            let animation = CABasicAnimation(keyPath: #keyPath(CAShapeLayer.path))
-            animation.fromValue = oldPath
-            animation.toValue = newPath
-            animation.duration = arrowAnimationDuration
-            animation.beginTime = CACurrentMediaTime()
-            animation.fillMode = .backwards
-            animation.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
-            arrowLayer.add(animation, forKey: animation.keyPath)
-        }
-        arrowLayer.path = newPath
-        arrowPosition = position
-    }
 }

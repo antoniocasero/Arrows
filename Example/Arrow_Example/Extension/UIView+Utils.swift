@@ -53,3 +53,22 @@ import UIKit
 
     }
 }
+
+extension UIViewController {
+    func curveTopCorners() {
+        let colorBorder = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
+        let path = UIBezierPath(roundedRect: self.view.bounds,
+                                byRoundingCorners: [.topLeft, .topRight],
+                                cornerRadii: CGSize(width: 50, height: 0))
+        let maskLayer = CAShapeLayer()
+        let borderLayer = CAShapeLayer()
+        borderLayer.path = path.cgPath
+        borderLayer.fillColor = UIColor.clear.cgColor
+        borderLayer.strokeColor = colorBorder.cgColor
+        borderLayer.borderWidth = 10
+        maskLayer.frame = self.view.bounds
+        maskLayer.path = path.cgPath
+        self.view.layer.mask = maskLayer
+        self.view.layer.addSublayer(borderLayer)
+    }
+}

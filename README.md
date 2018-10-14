@@ -9,14 +9,13 @@
 
 [![Twitter](https://img.shields.io/badge/twitter-@acaserop-blue.svg?style=flat)](http://twitter.com/acaserop)
 
-Arrows is an animated custom view, made with Core Graphics, to represent three different states, up/down/middle
+Arrows is an animated custom view, made with Core Graphics, to represent three different states: `up/down/middle`
 
 ## Usage
 
 Just need to set `ArrowView` in the class you want to be painted with the arrow indicator in IB
 
-In your ViewController
-
+In your ViewController, you can change the state of the arrow using `update` function
 
 ```swift
 class YourViewController: UIViewController {
@@ -30,7 +29,7 @@ class YourViewController: UIViewController {
 }
 ```
 
-
+The perfect companion for `Arrows` is [Panels](), take a look!
 
 ## Installation
 
@@ -42,3 +41,7 @@ Add the line `github "antoniocasero/Arrowa"` to your `Cartfile`
 
 ## Author
 Project created by Antonio Casero ([@acaserop](https://twitter.com/acaserop) on Twitter).
+
+### Credits
+
+[UI Sketch](https://www.sketchappsources.com/free-source/3599-vpn-app-design-sketch-freebie-resource.html)
