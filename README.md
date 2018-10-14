@@ -11,6 +11,11 @@
 
 Arrows is an animated custom view, made with Core Graphics, to represent three different states: `up/down/middle`
 
+<p align="center">
+    <img src="Resources/ArrowExample2.gif" width="480" height="240" alt="Arrowa demo1">
+</p>
+
+
 ## Usage
 
 Just need to set `ArrowView` in the class you want to be painted with the arrow indicator in IB
@@ -30,6 +35,11 @@ class YourViewController: UIViewController {
 ```
 
 The perfect companion for `Arrows` is [Panels](), take a look!
+
+<p align="center">
+    <img src="Resources/ArrowExample.gif" width="237" height="471" alt="Arrowa demo1">
+</p>
+
 
 ## Installation
 
