@@ -14,14 +14,16 @@ open class ArrowView: UIView {
     ///  Get the current position, if you want to change
     ///  position use `update` function
     fileprivate(set) var arrowPosition: Position = .middle
-    @IBInspectable var arrowColor: UIColor = .black {
+
+    /// Set arrow color
+    @IBInspectable open var arrowColor: UIColor = .black {
         didSet {
             arrowLayer.fillColor = arrowColor.cgColor
         }
     }
 
     /// Animation duration between arrow states
-    open var arrowAnimationDuration: Double = 0.30
+    @IBInspectable open var arrowAnimationDuration: Double = 0.30
 
     /// Arrow positions
     ///
@@ -81,7 +83,7 @@ open class ArrowView: UIView {
 }
 
 extension ArrowView {
-    private func commonInit(){
+    private func commonInit() {
         layer.frame = self.bounds
         backgroundColor = .clear
         update(to: arrowPosition, animated: false)
@@ -110,7 +112,6 @@ extension ArrowView {
         bezierPath.addCurve(to: CGPoint(x: arrowFrame.minX + 0.83300 * frame.width, y: arrowFrame.minY + 0.43631 * arrowFrame.height),
                             controlPoint1: CGPoint(x: arrowFrame.minX + 0.86212 * frame.width, y: arrowFrame.minY + 0.48781 * arrowFrame.height),
                             controlPoint2: CGPoint(x: arrowFrame.minX + 0.85246 * frame.width, y: arrowFrame.minY + 0.45044 * arrowFrame.height))
-
 
         bezierPath.close()
         bezierPath.miterLimit = 4

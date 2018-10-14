@@ -36,6 +36,20 @@ class YourViewController: UIViewController {
 
 The perfect companion for `Arrows` is [Panels](https://github.com/antoniocasero/Panels), take a look!
 
+## More options
+
+```swift
+    ///  Get the current position, if you want to change
+    ///  position use `update` function
+    fileprivate(set) var arrowPosition: Position = .middle
+
+    /// Animation duration between arrow states (accesible from IB)
+    @IBInspectable open var arrowAnimationDuration: Double = 0.30
+
+    /// Set arrow color (accesible from IB)
+    @IBInspectable open var arrowColor: UIColor = .black
+```
+
 <p align="center">
     <img src="Resources/ArrowExample.gif" width="237" height="471" alt="Arrowa demo1">
 </p>
@@ -47,7 +61,7 @@ The perfect companion for `Arrows` is [Panels](https://github.com/antoniocasero/
 Add the line `pod "Arrows"` to your `Podfile`
 
 ### Carthage
-Add the line `github "antoniocasero/Arrowa"` to your `Cartfile`
+Add the line `github "antoniocasero/Arrows"` to your `Cartfile`
 
 ## Author
 Project created by Antonio Casero ([@acaserop](https://twitter.com/acaserop) on Twitter).

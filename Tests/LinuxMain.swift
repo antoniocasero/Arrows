@@ -2,5 +2,5 @@ import XCTest
 @testable import ArrowsTests
 
 XCTMain([
-    testCase(ArrowsTests.allTests),
+    testCase(ArrowsTests.allTests)
 ])
