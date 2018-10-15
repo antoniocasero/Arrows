@@ -9,7 +9,7 @@
 
 [![Twitter](https://img.shields.io/badge/twitter-@acaserop-blue.svg?style=flat)](http://twitter.com/acaserop)
 
-Arrows is an animated custom view, drawing with Core Graphics, to represent three different states: `up/down/middle`
+Arrows is an animated custom view to represent three different arrow states: `up/down/middle`
 
 <p align="center">
     <img src="Resources/arrowExample2.gif" width="480" height="240" alt="Arrowa demo1">
@@ -18,7 +18,8 @@ Arrows is an animated custom view, drawing with Core Graphics, to represent thre
 
 ## Usage
 
-Just need to set `ArrowView` in the class you want to be painted with the arrow indicator in IB
+Just need to set `ArrowView` in the class you want to be painted with the arrow indicator in IB.
+Or directly instantiate the class `ArrowView` in code. It is based on UIBezierPath, so the dimensions are defined by the view frame, don't worry about the resolution it will look perfect.
 
 In your ViewController, you can change the state of the arrow using `update` function
 
@@ -34,21 +35,19 @@ class YourViewController: UIViewController {
 }
 ```
 
-The perfect companion for `Arrows` is [Panels](https://github.com/antoniocasero/Panels), take a look!
-
-## More options
-
+You can find more options in `ArrowView`
 ```swift
-    ///  Get the current position, if you want to change
-    ///  position use `update` function
+    ///  Get the current position
     fileprivate(set) var arrowPosition: Position = .middle
 
-    /// Animation duration between arrow states (accesible from IB)
+    /// Animation duration between arrow states (accessible from IB)
     @IBInspectable open var arrowAnimationDuration: Double = 0.30
 
-    /// Set arrow color (accesible from IB)
+    /// Set arrow color (accessible from IB)
     @IBInspectable open var arrowColor: UIColor = .black
 ```
+
+The perfect companion for `Arrows` is [Panels](https://github.com/antoniocasero/Panels), check it out! ✨
 
 <p align="center">
     <img src="Resources/ArrowExample.gif" width="237" height="471" alt="Arrowa demo1">
